@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="strt()">
+    <div id="container">
+        <h1 id="h1">STUDENT DATABASE MANAGEMENT SYSTEM</h1>
+        <div id="DataUpdate">
+
+               <form>
+            <div id="p1">
+                <label for="name" class="name">Name</label><br>
+                <input type="text" name="name"  id="name" placeholder="Enter Your Name" required ><br>
+                <label for="Register"class="name" >Reg No</label><br>
+                <input type="text" name="Register" id="Register" placeholder="Enter Your Register Number" required><br>
+            </div>
+            <div id="p2">
+                <label for="email" class="name">Email id</label><br>
+                <input type="email" name="email"  id="email" placeholder="Enter Your Mail Id" required><br>
+                <label for="Department" class="name">Department</label><br>
+                <input type="text" name="Department" id="Department" placeholder="Enter Your Department Name" required><br>
+            </div>
+            <button id="add" onclick="myfunction()">ADD DATA</button>
+               </form>   
+               <hr>
+               <div id="table">
+                <table id="mytable">
+                  
+                    <!-- <tr>
+                        <td>Nil</td>
+                        <td>Nil</td>
+                        <td>Nil</td>
+                        <td>Nil</td>
+                    </tr> -->
+                </table>
+                <table id="table1">
+
+                </table>
+               </div>
+        </div>
+
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>

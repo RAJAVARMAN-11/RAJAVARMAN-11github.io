@@ -1,0 +1,134 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+#h1{
+    position:absolute; 
+   left:20%;
+   top:5%;
+}
+body{
+    background-color: rgb(4, 24, 24);
+}
+label{
+    font-size: 1.3em;
+    
+    color: antiquewhite;
+    
+}
+/* form input{
+    font-size: large;
+    height: 30px;
+    display: flex;
+    width: 400px;
+    padding: 7px 7px 7px; 
+
+} */
+#container{
+    background-color: rgb(4, 24, 24);
+    height: 100%;
+    width: 100%;
+    color: antiquewhite;
+    /* position:relative; */
+}
+#DataUpdate{
+    /* position: relative; */
+    top:16%;
+    padding: 20px 30px 20px;
+    margin: auto;
+}
+#p1{
+    position: absolute;
+    left:10%;
+    top:15%;
+    
+}
+#p2{
+    position: absolute;
+    left: 61%;
+    top:15%
+}
+input{
+    width: 350px;
+    border: none;
+    height: 10px;
+    border-radius: 10px;
+    outline: none;
+    padding: 20px 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    position: relative;
+}
+
+#add{
+    width: 130px;
+    height: 50px;
+    position: relative;
+    margin-top: 21%;
+    margin-left: 120px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: antiquewhite;
+    background-color: rgb(13, 111, 13);
+    /* font-size: large; */
+
+}
+#add:hover{
+    scale: 1.1;
+}
+hr{
+    margin-top: 12px;
+}
+
+td, th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+    width: 250px;
+   
+   
+  }
+ .name::after{
+    content: " *";
+    color: rgba(247, 162, 4, 0.621);
+    font-size: smaller;
+ }
+
+
+ .par{
+    position: relative;
+ }
+#table{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#but{
+    height: 45px;
+    width: 68px;
+    border-radius: 10px;
+    background-color: rgb(203, 45, 45);
+    border: none;
+    margin-left: 30px;
+    cursor: pointer;
+    outline: none;
+}
+#edit{
+    height: 45px;
+    width: 68px;
+    border-radius: 10px;
+    background-color: rgb(173, 150, 150);
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+    outline: none;
+}
+#but:hover{
+    scale: 1.1;
+}
+#edit:hover{
+    scale: 1.1;
+}
